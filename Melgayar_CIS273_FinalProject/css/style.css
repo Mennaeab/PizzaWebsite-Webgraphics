@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Burned&family=Rubik+Doodle+Shadow&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('../imgs/4464061.jpg');
+    background-size: cover;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+}
+
+nav a {
+    color: white;
+    border: solid;
+    border-radius: 5%;
+    padding: 0.5em 1.5em; 
+    background-color: #c00;
+    text-decoration: none;
+    margin: 1%;
+}
+
+nav a:hover {
+    background-color:white;
+    color: #c00;
+}
+
+main {
+    position: relative; 
+    height: 100%; 
+    padding-right: 10%; 
+}
+
+.main-content {
+    position: absolute; 
+    top: 50%; 
+    right: 15%; 
+    transform: translateY(-50%); 
+    margin-right: 10%;
+}
+
+    h1 {
+    font-size: 5em; 
+    font-family: "Rubik Burned", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    color: #4CAF50; 
+    letter-spacing: 0.1em;
+    margin-bottom: 1em; 
+    text-align: center;
+}
+
+.main-title {
+        font-size: 5em; 
+        font-family: "Rubik Burned", system-ui;
+        font-weight: 900;
+        font-style: normal;
+        color: #4CAF50; 
+        letter-spacing: 0.1em;
+        margin-bottom: 0.1em; 
+        text-align: center;
+        margin-left: 85%;
+}
+
+.pizzagif {
+    padding: 0.2rem 1em;
+    font-size: 1.4em; 
+    border-color: white;
+    border-radius: 5%;
+    margin-left: 67%;
+}
+
+button {
+    padding: 0.2rem 1em;
+    font-size: 3em; 
+    cursor: pointer;
+    border: solid;
+    border-color: white;
+    border-radius: 5%;
+    background-color: #c00;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: #c00;
+}
+
+.menu-page {
+    background-image: url('../imgs/269.jpg');
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 2em;
+    color: white;
+    font-weight: bolder;
+    justify-content: center;
+    margin-left: 11em;
+    background-color: black;
+    
+}
+
+.menu-item {
+    border: 3px solid green; 
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.add-to-cart {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin-left: 12em;
+    margin-top: 6em;
+    
+}
+
+.about1, .about2 {
+    flex: 1;
+    padding: 20px;
+}
+
+.about1 h1, .about2 h1 {
+    font-size: 2em;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.about1 p, .about2 p {
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.about1 img, .about2 img {
+    max-width: 100%;
+    height: auto;
+}
+.menu-item:hover img {
+    transform: scale(2); 
+    transition: transform 0.3s ease; 
+}
+footer {
+    position: relative; 
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: white; 
+    width: 90%;
+    max-width: 40em; 
+    padding: 1.25em 0; 
+    text-align: center; 
+}
+
+form {
+    background-color: black;
+    padding: 1.5em;
+    border-radius: 0.8em;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
+    width: 58%;
+    color: white;
+    font-size: 2em;
+    margin-left: 12em;
+}
+
+label {
+    display: block;
+    margin-bottom: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1.6em;
+    border: 0.1em solid #ccc;
+    border-radius: 0.4em;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 5em;
+}
+
+input[type="submit"] {
+    background-color: #c00;
+    color: #fff;
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 0.4em;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #c00;
+}
